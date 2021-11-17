@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Estonia&display=swap");
+
+* {
+  overflow: hidden;
+  text-decoration: none !important;
+  color: black;
+  font-family: "Estonia", cursive;
+}
+.posicionNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+body {
+  background-color: #ffe0ff;
+}
+nav {
+  background-color: #ffe5f0;
+}
+.quitarTodo {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.tamañoPantalla {
+  width: 100%;
+  height: 100vh;
+}
+.tamañoImagen {
+  height: 100%;
+  padding-top: 68px;
+}
+.tamañoLogo {
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.centrar {
+  margin: 0 auto;
+}
+.logoMG {
+  width: 80px;
+}
+.trabajos {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+}
+.trabajo {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 0 0 20px 20px;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.25),
+    rgba(255, 255, 255, 0.5)
+  );
+  text-align: center;
+  box-shadow: 0px 0px 5px black;
+  transition: all 0.25s;
+}
+.trabajo:hover {
+  transform: scale(1.05);
+}
+.fotoTrabajo {
+  width: 100%;
+  height: 250px;
+  border-radius: 0;
+  border-bottom: 1px solid black;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+}
+.enlace {
+  transition: all 0.25s;
+}
+.enlace:hover {
+  transform: scale(1.1);
+}
+.contenedorPrimero {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px black;
+  transition: all 0.25s;
+}
+.contenedorPrimero:hover {
+  transform: scale(1.05);
+}
